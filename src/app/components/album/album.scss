@@ -1,0 +1,26 @@
+#album {
+  margin-top: 120px;
+
+
+  .masonry-grid {
+    margin: 0 auto;
+  }
+
+  .masonry-brick {
+    display: none;
+    margin-bottom: 10px;
+
+    img {
+      max-width: 350px;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+
+  .masonry-brick.loaded {
+    display: block;
+  }
+
+}
